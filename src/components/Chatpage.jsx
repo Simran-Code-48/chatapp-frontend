@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:1337");
+const socket = io("https://smart-positivity-156ef3201d.strapiapp.com");
 
 function Chat() {
   const [message, setMessage] = useState("");
